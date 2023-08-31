@@ -1,5 +1,5 @@
 {
-	"homepage": "https://DreMukare.github.io/alx-react/0x01-react_intro/task_4/dashboard",
+	"homepage": "https://bakceesay.github.io/alx-react/0x01-react_intro/task_4/dashboard",
 	"name": "dashboard",
 	"version": "0.1.0",
 	"private": true,
@@ -18,7 +18,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
